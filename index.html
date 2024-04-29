@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James' Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Condiment&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="hero-container">
+        <ul class="hero-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#resume">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hero-image-container">
+            <img class="hero-image" src="./images/Hero.jpg" alt="Graffiti on a wall in a park">
+        </div>
+        
+        <h1 class="heading">James' Portfolio</h1>
+        <p class="hero-text">A Computer Science graduate and an <span class="hero-highlight">aspiring</span> web developer.</p>
+    </div>
+
+    <div id="about" class="about-container">
+        <h2 class="heading about-heading">Who am I?</h2>
+        <div class="image-container">
+            <img class="display-image" src="./images/Me.jpg" alt="An image of James in Cornwall">
+        </div>
+        <div class="about-text-container">
+            <h2 class="about-subheading">A Programmer</h2>
+            <p class="about-text">I spent many years working in sales. I have always had a passion for technology and I grew sick of my career. This encouraged me to complete a conversion Masters degree in computer science. I now work as a junior software developer.</p>
+        </div>
+        <div class="about-text-container">
+            <h2 class="about-subheading">A Boxer</h2>
+            <p class="about-text">One of my greatest passions is boxing. Its a hobby i took up later than most at age 25, but I have competed in 9 amatuer fights, winning 5 of them!</p>
+        </div>
+        <div class="image-container">
+            <img class="display-image" src="./images/Boxing_1.jpg" alt="An image of James after a boxing match.">
+        </div>
+        <div class="image-container">
+            <img class="display-image" src="./images/Boarding.jpg" alt="An image of James jumping on a snowboard.">
+        </div>
+        <div class="about-text-container">
+            <h2 class="about-subheading">A Snowboarder</h2>
+            <p class="about-text">Albeit has been many years since I've been to the mountains, snowbaording is a great passion of mine. I am clucking to hit the slopes again ASAP!!</p>
+        </div>
+        <div class="about-text-container">
+            <h2 class="about-subheading">My Best Bud</h2>
+            <p class="about-text">Baxter hasn't left my side since 2016. Wouldn't have got half as far without this guy.</p>
+        </div>
+        <div class="image-container">
+            <img class="display-image" src="./images/Bax.jpg" alt="A picture of a German Shephad in a garden.">
+        </div>
+    </div>
+
+    <div id="portfolio" class="portfolio-container">
+        <h2 class="heading about-heading">My Portfolio</h2>
+        <h2 class="portfolio-subheading"> Masters of Dugeons</h2>
+        <div class="image-container">
+            <img class="display-image" src="./images/Zombie_3.png" alt="">
+        </div>
+        <div class="portfolio-text-container">
+            <p class="hero-text">Master of Dugeons is a 3D survival horror game build in C# with Unity. It comprises of two levels. The first level players solve a puzzle and escape a maze while trying to avoid zombies. The faster the time, the higher the score. </p>
+        </div>
+        <div class="portfolio-text-container">
+            <p class="hero-text">The second level, the player must try survive in a dungeon style map and avoid and kill as many zombies as possible. The more zombies they killed before dying, the higher they scored.</p>
+        </div>
+        <div class="image-container">
+            <img class="display-image" src="./images/Zombie_1.png" alt="">
+        </div>
+        <div class="image-container">
+            <img class="display-image" src="./images/MoD_Maze.png" alt="">
+        </div>
+        <div class="portfolio-text-container">
+            <p class="hero-text">The maze uses a concpet known as Procedural Content Generation (PCG), which means they are created using algorithms, so the player will face a new maze with each play. Within the maze the player has to find coloured digits which together provided the key to escape.</p>
+        </div>
+        <div class="portfolio-text-container">
+            <p class="hero-text">In the main menu, players had the choice of algorithms for the maze generation. Each algorithm provided a slightly varied dynamic to the maze. Most of the algorithms were established, known algorithms for generating maze, but i did write a genetic algorithm for content generation. Genetic algorithms are based on using the Darwinian concept of evolution to find an optimal solution to a given problem. Players could also view a global leaderboard, linked to an API, to see how they faired against players worldwide.</p>
+        </div>
+        <div class="image-container">
+            <img class="display-image" src="./images/Masters_of_Dungeons.png" alt="">
+        </div>
+        <h2 class="portfolio-subheading">ReStore</h2>
+        <div class="image-container">
+            <img class="display-image" src="./images/ReStore_1.png" alt="">
+        </div>
+        <div class="portfolio-text-container">
+            <p class="hero-text">ReStore is an e-commerce store build using React & Redux for the frontend & .NET for the backend. This was built by following a Udemy course. Users can shop for a range of products stored in a datbase, build a shopping cart and proceed to a checkout.</p>
+        </div>
+        <h2 class="portfolio-subheading">Stripe Payment App</h2>
+        <div class="image-container">
+            <img class="display-image" src="./images/Stripe_App.png" alt="">
+        </div>
+        <div class="portfolio-text-container">
+            <p class="hero-text">A small subscription purchasing app built with React which takes advantage of Stripes out of the box payment system. The app was build using React and work with a MongoDB database hosted on Docker. Users can create an account and sign up for a range of different subscriptions and pay using stripe.</p>
+        </div>
+        <h2 class="portfolio-subheading">Taskify</h2>
+        <div class="image-container">
+            <img class="display-image" src="./images/ToDo_App.png" alt="">
+        </div>
+        <div class="portfolio-text-container">
+            <p class="hero-text">A simple TODO list built using React with a drag and drop feature. Users can add task to a list, edit them, remove them, mark them completed, and drag them to a completed list.</p>
+        </div>
+    </div>
+
+    <div id="resume" class="resume-container">
+        <h2 class="heading about-heading">Resume</h2>
+        <div>
+            <h3 class="resume-subheading">Education</h3>
+            <ul class="resume-list resume-text">
+                <li>Masters Degree in Computer Science: Distinction</li>
+                <li>Undergraduate Degree in Mathematics & Economics: 1st Class Honors</li>
+            </ul> 
+        </div>
+        <div>
+            <h3 class="resume-subheading">Work Expirience</h3>
+            <ul class="resume-list resume-text">
+                <li>Oblongata: Junior Software Developer: 3 months</li>
+                <li>PEI Media: Sales Executive: 4 years</li>
+            </ul> 
+        </div>
+        <div>
+            <h3 class="resume-subheading">Skills</h3>
+            <p class="resume-text">ASP.NET, Java, C#, Python (NumPy, Matplotlib, Pandas, NLTK, VADER, pyLDAvis, SKLearn), SQL, MySQL, Postgres,
+                JavaScript, HTML, CSS, PHP, algorithms, logic, Software Engineering, systems architecture, data analytics, Natural Language 
+                Processing (NLP), Support Vector Machine SVM, AI/AI algorithms, React, Ruby, Rails, .NET, Redux, project management, Git.</p>
+        </div>
+        <div>
+            <h3 class="resume-subheading">Award & Certificates</h3>
+            <ul class="resume-list resume-text">
+                <li><span style="font-weight:bold;">November 2023</span>: The School of Computing Postgraduate Prize 2023 – awarded to the School of Computing postgraduate student 
+                    with the best overall performance on any computing programme.</li>
+                <li><span style="font-weight:bold;">June 2022</span>: Ray Holland Award, Folkestone Amateur Boxing Club – Boxer of the Year</li>
+                <li><span style="font-weight:bold;">August 2014</span>: Included on the Dean’s list for Excellence.</li>
+            </ul> 
+        </div>
+    </div>
+    <div id="contact" class="contact-container">
+        <h2 class="heading about-heading">Contact</h2>
+        <ul class="contact-list">
+            <li><a href="https://www.linkedin.com/in/james-craigie-1735911b8/">LinkedIn</a></li>
+            <li><a href="https://github.com/jamesrcraigie">GitHub</a></li>
+            <li><a href="mailto:jamesrcraigie1@gmail.com">Email</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>

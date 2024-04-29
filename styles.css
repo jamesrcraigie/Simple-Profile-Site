@@ -1,0 +1,223 @@
+
+/*  Lighter F3EEEA
+    Light EBE3D5
+    Dark B0A695
+    Darker 776B5D
+*/
+
+.condiment-regular {
+    font-family: "Condiment", cursive;
+    font-weight: 400;
+    font-style: normal;
+ }
+  
+  
+
+body {
+    margin: 0;
+}
+  
+  .rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.hero-container {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.25fr 1.5fr 1fr;
+    gap: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+.hero-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-family: "Rajdhani", sans-serif;
+    list-style: none;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #DC5F00;
+}
+
+a {
+    color: #DC5F00;
+}
+
+.hero-image-container {
+    width: 100%;
+    height: 100%;
+    grid-row: span 3;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30%;
+    margin: 30px;
+}
+
+.heading {
+    font-family: "Condiment", cursive;
+    font-weight: 500;
+    font-size: 100px;
+    color: #DC5F00;
+    text-align: center;
+}
+
+.hero-text {
+    font-family: "Rajdhani", sans-serif;
+    color: #DC5F00;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+}
+
+.hero-highlight {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.about-container {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.about-heading {
+    grid-column: span 2;
+    margin: 0;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.display-image {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.about-subheading {
+    font-family: "Condiment", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #DC5F00;
+    text-align: center;
+}
+
+.about-text {
+    font-family: "Rajdhani", sans-serif;
+    color: #000000;
+    font-weight: 300;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    padding: 0x 20px;
+}
+
+.portfolio-container {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.25fr repeat(4, 1fr) 0.25fr 1fr 0.25fr 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.portfolio-subheading {
+    font-family: "Condiment", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #DC5F00;
+    text-align: center;
+    grid-column: span 2;
+}
+
+.portfolio-text-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.resume-container {
+    background-color: #EEEEEE;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.25fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem 100px;
+    padding-bottom: 50px;
+}
+
+.resume-subheading {
+    font-family: "Condiment", cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: #DC5F00;
+    text-align: left;
+}
+
+.resume-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: #DC5F00;
+}
+
+.resume-text {
+    font-family: "Rajdhani", sans-serif;
+    color: #DC5F00;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    text-align: left;
+}
+
+.contact-container {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contact-list {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    list-style: none;
+}
+
+hr {
+    color: #DC5F00;
+}
+@media (max-width: 900px) {
+    .hero-container, .about-container, .portfolio-container, .resume-container, .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-image {
+        padding-left: 20px;
+    }
+
+}
